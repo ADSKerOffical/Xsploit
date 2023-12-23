@@ -1,0 +1,532 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Xsploit 1.0", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Blade ball"
+})
+
+Tab:AddButton({
+	Name = "Auto parry",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "THub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tibe0124/tibe0124/main/Thub-blade-ur-balls"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BEDOL Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/W3QkAFRn"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "MM2"
+})
+
+Tab:AddButton({
+	Name = "Vynixius Hub",
+	Callback = function()
+      		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dark client Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/ECCeYtXA"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Void Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Psxvoidyx/Murdermysvoid2/main/Darkxyz23'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Lunar Hub",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Eclipse Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Xenny Ware",
+	Callback = function()
+      		repeat wait() until game.Players.LocalPlayer.Character
+url = "https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua"
+loadstring(game:HttpGet(url))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Bedwars"
+})
+
+Tab:AddButton({
+	Name = "Vape v4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Blox Fruit"
+})
+
+Tab:AddButton({
+	Name = "Dragon Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Dragon-Hub/main/Script-Execute.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zee Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Alchemy Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Wolf Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cokka Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Strongest battleground"
+})
+
+Tab:AddButton({
+	Name = "Teleport Aura",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/uU4gzjjQ"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Brookhaven"
+})
+
+Tab:AddButton({
+	Name = "Ice Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Area 51"
+})
+
+Tab:AddButton({
+	Name = "STK Menus",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v5/STKv5.txt'))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Build a boat"
+})
+
+Tab:AddButton({
+	Name = "Neverlose Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Neverlose-UI/main/Scripts/Build%20A%20Boat.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ExyGantenk",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Natural disasters"
+})
+
+Tab:AddButton({
+	Name = "VoidZ Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "NDS Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DisasterHax",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/r9t5QVig"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Bendy and ink machine"
+})
+
+Tab:AddButton({
+	Name = "BendyHubX",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Bendy/main/BendyHubX"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Pet simulator 99"
+})
+
+Tab:AddButton({
+	Name = "REDz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Free admin"
+})
+
+Tab:AddButton({
+	Name = "FreeGUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/FreeAdmin/main/GUI"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Zombie attack"
+})
+
+Tab:AddButton({
+	Name = "Zombie attack GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Zombie-Attack-Gui/main/Zombie%20Attack%20V1.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Bathroom simulator"
+})
+
+Tab:AddButton({
+	Name = "Multi paper",
+	Callback = function()
+      		local LP = game.Players.LocalPlayer
+game.ReplicatedStorage.ToolEvents.TpRollEvent:FireServer()
+repeat wait() until LP.Character
+for i,v in pairs(LP.Backpack:GetChildren()) do
+   if v.Name == "TpRoll" then
+       v.Parent = LP.Character
+   end
+end
+while true do
+   wait()
+   for i,v in pairs (LP.Character:GetChildren()) do
+       if v.Name == "TpRoll" then
+           v:Activate()
+       end
+   end
+end
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Ninja legends"
+})
+
+Tab:AddButton({
+	Name = "BlackTra",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "horizon cc",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadetamic/horizon/main/loadstring.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Cart ride into rdite"
+})
+
+Tab:AddButton({
+	Name = "Cart Ride GUI",
+	Callback = function()
+      	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Cart%20Ride%20Into%20Rdite!'),true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Escape head"
+})
+
+Tab:AddButton({
+	Name = "Escape GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Felipe/main/EscapeRinningHead"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Prison life"
+})
+
+Tab:AddButton({
+	Name = "Tiger admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))("https://t.me/arceusxscripts")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Prisonware",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Prevail X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Radgoll engine"
+})
+
+Tab:AddButton({
+	Name = "Malware Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Next Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Qwarle/Main_Scripts/main/QUI.lua' )))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "System Broken",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Treasure Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nrg12345/TreasureHub/main/TreasureHub.lua"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Find morphs Floppas"
+})
+
+Tab:AddButton({
+	Name = "Find all",
+	Callback = function()
+      		local plr = game.Players.LocalPlayer.Character.Head
+for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+        if v.Name == "TouchInterest" and v.Parent then
+        firetouchinterest(plr, v.Parent, 0)
+    end
+end
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Doors"
+})
+
+Tab:AddButton({
+	Name = "DarkKing Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Infection smile"
+})
+
+Tab:AddButton({
+	Name = "SmileHax",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/SmileGUI/main/SmileHax33"))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Chaos"
+})
+
+Tab:AddButton({
+	Name = "Astral Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua", true))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "3008"
+})
+
+Tab:AddButton({
+	Name = "Zeerox Hub",
+	Callback = function()
+      		loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "SCP games"
+})
+
+Tab:AddButton({
+	Name = "SCP games GUI",
+	Callback = function()
+      		
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "SCP games", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Telekinesis",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bring entities",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling players",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_K2n31uc6t2wY5A8786eR4K15sgbUF0vdQ80a0LzgvLRkSNYd89H1AS3124gMR6SM.lua.txt'),true))()
+  	end    
+})
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Slap battles"
+})
+
+Tab:AddButton({
+	Name = "Slap Battles that exists",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Lucky blocks"
+})
+
+Tab:AddButton({
+	Name = "LuckyGUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/LuckyBlock/main/LuckyGUI"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Link bypassers",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Bypass city",
+	Callback = function()
+      		setclipboard("https://bypass.city/")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Adlink bypass",
+	Callback = function()
+      		setclipboard("https://adlinkbypass.com/")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ArxBypass_Bot",
+	Callback = function()
+      		setclipboard("https://web.telegram.org/a/#6603414030")
+  	end    
+})
